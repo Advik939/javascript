@@ -82,4 +82,38 @@ console.log(number++);//10 mem(11)
 console.log(number--);//11 mem(10)
 
 let n=5
-console.log(n++ + --n+ n-- +n++ - n-- + ++n -n--)
+console.log(n++ + --n+ n-- +n++ - n-- + ++n -n--)//14
+
+console.log("Math methods------");
+console.log(Math.round(2.4));//2 //round to nearest integer
+console.log(Math.round(2.5));//3
+
+console.log(Math.ceil(2.1));//3 round up to next num
+console.log(Math.ceil(2.0));//2
+
+console.log(Math.floor(2.9))//2 round down to next num
+console.log(Math.floor(2.5))//2
+
+console.log(Math.trunc(2.8))//2 only integer part
+console.log(Math.trunc(2.535446))//2
+
+console.log(Math.sign(-4));//-1
+console.log(Math.sign(0));//0
+console.log(Math.sign(9));//1
+
+console.log(Math.pow(25,2));//625
+
+console.log(Math.sqrt(169));//13
+
+console.log(Math.abs(-25));//25
+
+console.log(Math.max(12,3,4,56,78,9));//78
+console.log(Math.min(12,3,45,2,3,125));//2
+
+console.log("Random number---");
+console.log(Math.trunc(Math.random()*100));//0 to <1
+//0 to 99
+
+let num=7164483836443643864368n
+console.log(typeof(num));//bigint
+
