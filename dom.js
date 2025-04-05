@@ -49,3 +49,16 @@ for(let i=0;i<qa.length;i++){
 //queryselector=>html elmt
 //tag name=>html collection
 //queryall=>nodelist
+
+
+//create element with JS
+let newh1=document.createElement("h1")
+newh1.textcontent="new heading"
+// <h1>new heading</h1>
+document.body.appendChild(newh1)
+
+//create input and attributes
+let newinp=document.createElement("input");
+newinp.type="text"
+newinp.placeholder="enter ur name"
+document.body.appendChild(newinp)
