@@ -94,4 +94,3 @@ let num=10
 console.log(typeof(num));//number
 let f_num=10.9
 console.log(typeof(f_num));
-

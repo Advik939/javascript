@@ -117,3 +117,14 @@ console.log(Math.trunc(Math.random()*100));//0 to <1
 let num=7164483836443643864368n
 console.log(typeof(num));//bigint
 
+const f=new Date()
+console.log(f.getTime());
+console.log(f.getDay());
+console.log(f.getFullYear());
+console.log(f.getTime());
+console.log(f.getMinutes());
+console.log(f.getSeconds());
+
+const h=new Date();
+h.setFullYear(2020,11,3);
+console.log(h)
